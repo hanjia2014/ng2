@@ -1,0 +1,19 @@
+﻿<h1>{{title}}</h1>
+<h2>My Heroes</h2>
+<ul class="heroes">
+    <li *ngFor="let hero of heroes"
+        [class.hero-selected]="hero === selectedHero"
+        (click)="onSelect(hero)">
+        <span class="badge">{{hero.id}}</span> {{hero.name}}
+    </li>
+</ul>
+<table border=1>
+    <!--  expression calculates colspan=2 -->
+    <tr><td [attr.colspan]="1 + 1">One-Two</td></tr>
+    <tr>
+        <td [class]="redClass">Five</td>
+        <td class="{{greenClass}}">Six</td>
+    </tr>
+</table>
+<my-hero-detail (myOutput)="addMyHero($event)" [hero]="selectedHero" [newId]="nextId"></my-hero-detail>
+<my-learn-example [selectedHero]="selectedHero"></my-learn-example>

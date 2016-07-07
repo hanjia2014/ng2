@@ -1,0 +1,12 @@
+<label>Name:</label>
+<!-- data-bind to the input element; store value in yourName -->
+<input type="text" [(ngModel)]="yourName" placeholder="Enter a name here">
+<hr>
+<!-- conditionally display `yourName` -->
+<h1 [hidden]="!yourName">Hello {{yourName}}!</h1>
+
+<!-- 
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
