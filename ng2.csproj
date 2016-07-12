@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.1.8.11\tools\Microsoft.TypeScript.Default.props" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.1.8.11\tools\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.1.8.11\tools\Microsoft.TypeScript.NuGet.props" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.1.8.11\tools\Microsoft.TypeScript.NuGet.props')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -97,6 +98,14 @@
     <Content Include="Form\tsconfig.json" />
     <Content Include="HTTP\tsconfig.json" />
     <Content Include="Interaction\tsconfig.json" />
+    <Content Include="Routing\app\app.component.css" />
+    <Content Include="Routing\app\dashboard.component.css" />
+    <Content Include="Routing\app\dashboard.component.html" />
+    <Content Include="Routing\app\hero-detail.component.css" />
+    <Content Include="Routing\app\hero-detail.component.html" />
+    <Content Include="Routing\app\heroes.component.css" />
+    <Content Include="Routing\app\heroes.component.html" />
+    <Content Include="Routing\tsconfig.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -109,6 +118,9 @@
     <Content Include="Hero\index.html" />
     <Content Include="Hero\styles.css" />
     <Content Include="Hero\systemjs.config.js" />
+    <Content Include="Routing\index.html" />
+    <Content Include="Routing\styles.css" />
+    <Content Include="Routing\systemjs.config.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -165,6 +177,15 @@
     <TypeScriptCompile Include="Interaction\app\version-parent.component.ts" />
     <TypeScriptCompile Include="Interaction\app\voter.component.ts" />
     <TypeScriptCompile Include="Interaction\app\votetaker.component.ts" />
+    <TypeScriptCompile Include="Routing\app\app.component.ts" />
+    <TypeScriptCompile Include="Routing\app\app.routes.ts" />
+    <TypeScriptCompile Include="Routing\app\dashboard.component.ts" />
+    <TypeScriptCompile Include="Routing\app\hero-detail.component.ts" />
+    <TypeScriptCompile Include="Routing\app\hero.service.ts" />
+    <TypeScriptCompile Include="Routing\app\hero.ts" />
+    <TypeScriptCompile Include="Routing\app\heroes.component.ts" />
+    <TypeScriptCompile Include="Routing\app\main.ts" />
+    <TypeScriptCompile Include="Routing\app\mock-heroes.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
@@ -174,7 +195,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.1.8.11\tools\Microsoft.TypeScript.targets" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.1.8.11\tools\Microsoft.TypeScript.targets')" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
   <ProjectExtensions>
