@@ -99,7 +99,6 @@
   <ItemGroup>
     <Content Include="Hero\hero-app\hero-list.html" />
     <Content Include="Hero\index.html" />
-    <Content Include="Hero\index2.html" />
     <Content Include="Hero\styles.css" />
     <Content Include="Hero\systemjs.config.js" />
     <Content Include="Web.config" />
