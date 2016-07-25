@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+
+    <title>Ng-Forward Sample</title>
+    <script data-require="angular.js@1.4.7" data-semver="1.4.7" src="https://code.angularjs.org/1.4.7/angular.js"></script>
+    <script data-require="ui-router@0.2.15" data-semver="0.2.15" src="http://rawgit.com/angular-ui/ui-router/0.2.15/release/angular-ui-router.js"></script>
+
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/systemjs/0.18.4/system.js"></script>
+    <script src="config.js"></script>
+
+    <script>
+      //bootstrap the Angular2 application
+      System.import('app').catch(console.log.bind(console));
+    </script>
+</head>
+
+<body>
+    <app>Loading...</app>
+</body>
+
+</html>

@@ -179,6 +179,11 @@
     <TypeScriptCompile Include="Interaction\app\votetaker.component.ts" />
     <TypeScriptCompile Include="Routing\app\app.component.ts" />
     <TypeScriptCompile Include="Routing\app\app.routes.ts" />
+    <TypeScriptCompile Include="Routing\app\contact.model.ts" />
+    <TypeScriptCompile Include="Routing\app\contacts-detail.component.ts" />
+    <TypeScriptCompile Include="Routing\app\contacts-list.component.ts" />
+    <TypeScriptCompile Include="Routing\app\contacts.routes.ts" />
+    <TypeScriptCompile Include="Routing\app\contacts.service.ts" />
     <TypeScriptCompile Include="Routing\app\dashboard.component.ts" />
     <TypeScriptCompile Include="Routing\app\hero-detail.component.ts" />
     <TypeScriptCompile Include="Routing\app\hero.service.ts" />
