@@ -93,6 +93,18 @@
     <Content Include="Interaction\index.html" />
     <Content Include="Interaction\styles.css" />
     <Content Include="Interaction\systemjs.config.js" />
+    <Content Include="ng-Select\css\bootstrap.3.3.6.min.css" />
+    <Content Include="ng-Select\css\ng2-select.css" />
+    <Content Include="ng-Select\css\prism-okaidia.css" />
+    <Content Include="ng-Select\css\site.css" />
+    <Content Include="ng-Select\css\site.min.css" />
+    <Content Include="ng-Select\css\style.css" />
+    <Content Include="ng-Select\hero-app\hero-list.html" />
+    <Content Include="ng-Select\hero-app\new.html" />
+    <Content Include="ng-Select\hero-app\select2.html" />
+    <Content Include="ng-Select\index.html" />
+    <Content Include="ng-Select\styles.css" />
+    <Content Include="ng-Select\systemjs.config.js" />
     <Content Include="packages.config" />
     <Content Include="Customer\api\people.json" />
     <Content Include="Form\tsconfig.json" />
@@ -106,6 +118,9 @@
     <Content Include="Routing\app\heroes.component.css" />
     <Content Include="Routing\app\heroes.component.html" />
     <Content Include="Routing\tsconfig.json" />
+    <Content Include="ng-Select\tsconfig.json" />
+    <Content Include="ng-Select\hero-app\ng2-select\components\select\readme.md" />
+    <Content Include="ng-Select\package.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -121,6 +136,10 @@
     <Content Include="Routing\index.html" />
     <Content Include="Routing\styles.css" />
     <Content Include="Routing\systemjs.config.js" />
+    <Content Include="Select2\css\select2.min.css" />
+    <Content Include="Select2\index.html" />
+    <Content Include="Select2\js\prettify.min.js" />
+    <Content Include="Select2\js\select2.full.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -177,6 +196,26 @@
     <TypeScriptCompile Include="Interaction\app\version-parent.component.ts" />
     <TypeScriptCompile Include="Interaction\app\voter.component.ts" />
     <TypeScriptCompile Include="Interaction\app\votetaker.component.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\app.component.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\hero-detail.component.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\hero.service.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\Hero.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\learn-example.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\main.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\mock-heroes.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\ng2-select\components\select.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\ng2-select\components\select\common.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\ng2-select\components\select\off-click.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\ng2-select\components\select\select-interfaces.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\ng2-select\components\select\select-item.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\ng2-select\components\select\select-pipes.spec.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\ng2-select\components\select\select-pipes.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\ng2-select\components\select\select.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\ng2-select\ng2-select.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\select2.ts" />
+    <TypeScriptCompile Include="ng-Select\typings\es6-shim.d.ts" />
+    <TypeScriptCompile Include="ng-Select\typings\jquery.d.ts" />
+    <TypeScriptCompile Include="ng-Select\typings\select2.d.ts" />
     <TypeScriptCompile Include="Routing\app\app.component.ts" />
     <TypeScriptCompile Include="Routing\app\app.routes.ts" />
     <TypeScriptCompile Include="Routing\app\contact.model.ts" />
