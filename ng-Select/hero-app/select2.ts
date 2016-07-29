@@ -12,19 +12,26 @@ export class Select2Component implements AfterViewInit {
     multiple: boolean;
     @Input()
     data: any;
+    @Output() selected = new EventEmitter();
+    selectedValues: any;
 
     ngAfterViewInit() {
         var options = {
             placeholder: "Please select",
             dropdownAutoWidth: true,
             allowClear: true,
-            data: this.data
+            data: this.data,
+            multiple: this.multiple,
+            tags: this.selectedValues
         };
         (function ($: any) {
-            $("#mySel").select2(options);
+            $("#mySel").select2(options).on("change", (e: any) => {
+                alert(e.val);
+            });
         })(jQuery);
+    }
 
-        
+    updateSelectedValues() {
 
     }
     constructor() {
