@@ -12,13 +12,13 @@
     }
 </style>
 
-<select2></select2>
+<select2 [multiple]="true" [data]="items"></select2>
 
-<ng-select [data]="value"
+<!--<ng-select [data]="value"
            [multiple]="false"
            [items]="items"
            [disabled]="disabled"
            (data)="refreshValue($event)"
            (selected)="selected($event)"
            (removed)="removed($event)"
-           placeholder="only hearing of evidence works"></ng-select>
+           placeholder="only hearing of evidence works"></ng-select>-->
