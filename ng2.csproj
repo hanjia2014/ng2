@@ -101,8 +101,8 @@
     <Content Include="ng-Select\css\style.css" />
     <Content Include="ng-Select\hero-app\hero-list.html" />
     <Content Include="ng-Select\hero-app\new.html" />
-    <Content Include="ng-Select\hero-app\select2.html" />
     <Content Include="ng-Select\index.html" />
+    <Content Include="ng-Select\number.html" />
     <Content Include="ng-Select\styles.css" />
     <Content Include="ng-Select\systemjs.config.js" />
     <Content Include="packages.config" />
@@ -212,9 +212,12 @@
     <TypeScriptCompile Include="ng-Select\hero-app\ng2-select\components\select\select-pipes.ts" />
     <TypeScriptCompile Include="ng-Select\hero-app\ng2-select\components\select\select.ts" />
     <TypeScriptCompile Include="ng-Select\hero-app\ng2-select\ng2-select.ts" />
+    <TypeScriptCompile Include="ng-Select\hero-app\datepicker.ts" />
     <TypeScriptCompile Include="ng-Select\hero-app\select2.ts" />
+    <TypeScriptCompile Include="ng-Select\typings\bootstrap.v3.datetimepicker.d.ts" />
     <TypeScriptCompile Include="ng-Select\typings\es6-shim.d.ts" />
     <TypeScriptCompile Include="ng-Select\typings\jquery.d.ts" />
+    <TypeScriptCompile Include="ng-Select\typings\jqueryui.d.ts" />
     <TypeScriptCompile Include="ng-Select\typings\select2.d.ts" />
     <TypeScriptCompile Include="Routing\app\app.component.ts" />
     <TypeScriptCompile Include="Routing\app\app.routes.ts" />

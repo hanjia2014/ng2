@@ -2,8 +2,8 @@
 
 @Component({
     selector: 'select2',
-    templateUrl: `hero-app/select2.html`,
-    styles: [`.timepicker-picker .table-condensed td{text-align:center}`],
+    template: `<input id="{{id}}"/>`,
+    styles: [],
     directives: [],
     providers: []
 })
@@ -12,8 +12,9 @@ export class Select2Component implements AfterViewInit {
     multiple: boolean;
     @Input()
     data: any;
+    @Input()
+    id: string;
     @Output() selected = new EventEmitter();
-    selectedValues: any;
 
     ngAfterViewInit() {
         var options = {
@@ -22,19 +23,13 @@ export class Select2Component implements AfterViewInit {
             allowClear: true,
             data: this.data,
             multiple: this.multiple,
-            tags: this.selectedValues
         };
-        (function ($: any) {
-            $("#mySel").select2(options).on("change", (e: any) => {
-                alert(e.val);
-            });
-        })(jQuery);
-    }
-
-    updateSelectedValues() {
+        $("#" + this.id).select2(options).on("change", (e: any) => {
+            this.selected.next(e.val);
+        });
 
     }
     constructor() {
-
+        
     }
 }

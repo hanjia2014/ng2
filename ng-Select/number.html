@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #list ol {
+            counter-reset: item;
+        }
+
+        #list li {
+            list-style: none;
+            counter-increment: item;
+            margin-bottom: 5px;
+        }
+
+            #list li:before {
+                content: counters(item, ".") " ";
+                background: lightseagreen;
+                margin-right: 10px;
+                border-radius: 30%;
+                color: white;
+                min-width: 1.2em;
+                text-align: center;
+                display: inline-block;
+            }
+
+        .list2 ol {
+            counter-reset: item;
+        }
+
+        .list2 li {
+            list-style: none;
+            counter-increment: item;
+            margin-bottom: 5px;
+        }
+
+            .list2 li:before {
+                content: counters(item, ".") " ";
+                background: lightseagreen;
+                margin-right: 10px;
+                border-radius: 30%;
+                color: white;
+                min-width: 1.2em;
+                text-align: center;
+                display: inline-block;
+            }
+    </style>
+</head>
+<body>
+    <ol id="list">
+        <li>
+            One
+            <ol>
+                <li>Monday</li>
+                <li>Tuesday</li>
+                <li>
+                    Wednesday
+                    <ol>
+                        <li>Jan</li>
+                        <li>Feb</li>
+                        <li>Mar</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+
+    <ol class="list2">
+        <li>
+            One
+            <ol>
+                <li>Monday</li>
+                <li>Tuesday</li>
+                <li>
+                    Wednesday
+                    <ol>
+                        <li>Jan</li>
+                        <li>Feb</li>
+                        <li>Mar</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+</body>
+</html>

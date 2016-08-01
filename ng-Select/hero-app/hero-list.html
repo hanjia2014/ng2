@@ -12,13 +12,15 @@
     }
 </style>
 
-<select2 [multiple]="true" [data]="items"></select2>
+<div class="container">
+    <select2 [id]="selectId" [multiple]="true" [data]="items" (selected)="selected($event)"></select2>
 
-<!--<ng-select [data]="value"
-           [multiple]="false"
-           [items]="items"
-           [disabled]="disabled"
-           (data)="refreshValue($event)"
-           (selected)="selected($event)"
-           (removed)="removed($event)"
-           placeholder="only hearing of evidence works"></ng-select>-->
+    <!--<div class="input-group date" id="datepicker">
+        <input type="text">
+        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+    </div>-->
+    <p>
+        <date-picker [id]="'test'" [IncludeTime]="true" (onValueChange)="dateChange($event)"></date-picker>
+    </p>
+
+</div>

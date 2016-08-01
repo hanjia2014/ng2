@@ -6,6 +6,7 @@ import { HeroService } from './hero.service';
 import { SELECT_DIRECTIVES } from './ng2-select/ng2-select';
 
 import { Select2Component } from './select2';
+import { DatePickerComponent } from './datepicker';
 
 @Component({
     selector: 'my-app',
@@ -65,7 +66,7 @@ import { Select2Component } from './select2';
         color: green;
     }
   `],
-    directives: [HeroDetailComponent, LearnExampleComponent, SELECT_DIRECTIVES, Select2Component],
+    directives: [HeroDetailComponent, LearnExampleComponent, SELECT_DIRECTIVES, Select2Component, DatePickerComponent],
     providers: [HeroService]
 })
 export class AppComponent {
@@ -75,6 +76,7 @@ export class AppComponent {
     heroes: Hero[];
     selectedHero: Hero;
     nextId: number;
+    selectId: string;
     onSelect = (hero: Hero) => {
         this.selectedHero = hero;
     }
@@ -88,7 +90,7 @@ export class AppComponent {
         this.heroes.push(hero);
     }
     public constructor(private heroService: HeroService) {
-        
+        this.selectId = "mySel";
     }
 
     private value: any;
@@ -104,5 +106,17 @@ export class AppComponent {
 
     public refreshValue(value: any): void {
         this.value = value;
+    }
+
+    public dateChange(value: Date) {
+        alert('hello --- ' + value);
+    }
+
+    ngAfterViewInit() {
+        $('#datepicker').datepicker({
+            autoclose: true,
+        }).on("changeDate", function (e: any) {
+            console.log(e.date);
+        });
     }
 }
