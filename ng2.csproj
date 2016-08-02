@@ -93,6 +93,12 @@
     <Content Include="Interaction\index.html" />
     <Content Include="Interaction\styles.css" />
     <Content Include="Interaction\systemjs.config.js" />
+    <Content Include="modal\demo\images\modal-custom-footer.png" />
+    <Content Include="modal\demo\images\modal.png" />
+    <Content Include="modal\demo\modal-demo.component.html" />
+    <Content Include="modal\index.html" />
+    <Content Include="modal\karma.conf.js" />
+    <Content Include="modal\test\test-main.js" />
     <Content Include="ng-Select\css\bootstrap.3.3.6.min.css" />
     <Content Include="ng-Select\css\ng2-select.css" />
     <Content Include="ng-Select\css\prism-okaidia.css" />
@@ -121,6 +127,16 @@
     <Content Include="ng-Select\tsconfig.json" />
     <Content Include="ng-Select\hero-app\ng2-select\components\select\readme.md" />
     <Content Include="ng-Select\package.json" />
+    <Content Include="modal\.gitignore" />
+    <Content Include="modal\.npmignore" />
+    <Content Include="modal\.travis.yml" />
+    <Content Include="modal\LICENSE.md" />
+    <Content Include="modal\package.json" />
+    <Content Include="modal\README.md" />
+    <Content Include="modal\tsconfig.json" />
+    <Content Include="modal\tslint.json" />
+    <Content Include="modal\typings.json" />
+    <Content Include="modal\test\tsconfig.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -196,6 +212,18 @@
     <TypeScriptCompile Include="Interaction\app\version-parent.component.ts" />
     <TypeScriptCompile Include="Interaction\app\voter.component.ts" />
     <TypeScriptCompile Include="Interaction\app\votetaker.component.ts" />
+    <TypeScriptCompile Include="modal\demo\app.component.ts" />
+    <TypeScriptCompile Include="modal\demo\hello.component.ts" />
+    <TypeScriptCompile Include="modal\demo\main.ts" />
+    <TypeScriptCompile Include="modal\demo\modal-demo.component.ts" />
+    <TypeScriptCompile Include="modal\src\ng2-bs3-modal\components\modal-body.ts" />
+    <TypeScriptCompile Include="modal\src\ng2-bs3-modal\components\modal-footer.ts" />
+    <TypeScriptCompile Include="modal\src\ng2-bs3-modal\components\modal-header.ts" />
+    <TypeScriptCompile Include="modal\src\ng2-bs3-modal\components\modal-instance.ts" />
+    <TypeScriptCompile Include="modal\src\ng2-bs3-modal\components\modal.ts" />
+    <TypeScriptCompile Include="modal\src\ng2-bs3-modal\directives\autofocus.ts" />
+    <TypeScriptCompile Include="modal\src\ng2-bs3-modal\ng2-bs3-modal.ts" />
+    <TypeScriptCompile Include="modal\test\ng2-bs3-modal.spec.ts" />
     <TypeScriptCompile Include="ng-Select\hero-app\app.component.ts" />
     <TypeScriptCompile Include="ng-Select\hero-app\hero-detail.component.ts" />
     <TypeScriptCompile Include="ng-Select\hero-app\hero.service.ts" />

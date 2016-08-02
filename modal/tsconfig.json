@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "noImplicitAny": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "inlineSourceMap": true,
+        "declaration": false,
+        "outDir": ".",
+        "rootDir": "src/ng2-bs3-modal"
+    },
+    "exclude": [
+        "typings/main.d.ts",
+        "typings/main",
+        "node_modules",
+        "demo",
+        "bundles",
+        "components",
+        "test"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "ng2-bs3-modal",
+  "version": "0.6.1",
+  "description": "Angular2 Boostrap3 Modal Component",
+  "main": "ng2-bs3-modal.js",
+  "scripts": {
+    "peer": "npm install es6-promise@^3.0.2 es6-shim@^0.33.3 reflect-metadata@0.1.2 rxjs@5.0.0-beta.0 zone.js@0.5.14",
+    "lint": "tslint ./src/**/*.ts",
+    "clean": "rimraf ./bundles/ ./components/ ./directives/ ./ng2-bs3-modal.js ./ng2-bs3-modal.d.ts",
+    "tsc": "tsc --project . --declaration",
+    "tsc-test": "tsc --project ./test",
+    "tsc-single": "tsc --project . --rootDir ./src --module system --outFile ./bundles/ng2-bs3-modal.js",
+    "uglify": "uglifyjs ./bundles/ng2-bs3-modal.js --output ./bundles/ng2-bs3-modal.min.js",
+    "bundles": "npm run tsc-single && npm run uglify",
+    "build": "npm run clean && npm run typings && npm run lint && npm run tsc && npm run bundles",
+    "prepublish": "npm run build",
+    "typings": "typings install",
+    "test": "karma start --single-run",
+    "test-watch": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dougludlow/ng2-bs3-modal.git"
+  },
+  "keywords": [
+    "angular2",
+    "bootstrap",
+    "modal",
+    "component"
+  ],
+  "author": "Douglas Ludlow <doug.ludlow@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dougludlow/ng2-bs3-modal/issues"
+  },
+  "homepage": "https://github.com/dougludlow/ng2-bs3-modal#readme",
+  "devDependencies": {
+    "@angular/common": "^2.0.0-rc.1",
+    "@angular/compiler": "^2.0.0-rc.1",
+    "@angular/core": "^2.0.0-rc.1",
+    "@angular/platform-browser": "^2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.1",
+    "@angular/router": "^2.0.0-rc.1",
+    "bootstrap": "^3.3.6",
+    "es6-shim": "^0.35.0",
+    "jasmine": "^2.4.1",
+    "jquery": "^2.2.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.24",
+    "phantomjs-prebuilt": "2.1.7",
+    "reflect-metadata": "^0.1.3",
+    "rimraf": "^2.5.1",
+    "rxjs": "5.0.0-beta.6",
+    "systemjs": "^0.19.23",
+    "tslint": "^3.7.1",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.9",
+    "uglify-js": "^2.6.2",
+    "zone.js": "^0.6.12"
+  },
+  "peerDependencies": {
+    "@angular/common": "^2.0.0-rc.1",
+    "@angular/compiler": "^2.0.0-rc.1",
+    "@angular/core": "^2.0.0-rc.1",
+    "@angular/platform-browser": "^2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.1",
+    "bootstrap": "~3.3.x"
+  }
+}

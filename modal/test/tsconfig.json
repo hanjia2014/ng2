@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "files": [
+        "ng2-bs3-modal.spec.ts",
+        "../typings/broswer.d.ts"
+    ]
+}
