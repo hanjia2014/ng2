@@ -93,6 +93,7 @@
     <Content Include="Interaction\index.html" />
     <Content Include="Interaction\styles.css" />
     <Content Include="Interaction\systemjs.config.js" />
+    <Content Include="modal\button.html" />
     <Content Include="modal\demo\images\modal-custom-footer.png" />
     <Content Include="modal\demo\images\modal.png" />
     <Content Include="modal\demo\modal-demo.component.html" />
