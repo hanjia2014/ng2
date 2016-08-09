@@ -69,6 +69,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Backbone\index.html" />
     <Content Include="Customer\config.js" />
     <Content Include="Customer\index.html" />
     <Content Include="Customer\systemjs.config.js" />
