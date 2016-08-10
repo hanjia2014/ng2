@@ -1,0 +1,574 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.3
+3 info using node@v6.3.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData angular2
+20 silly mapToRegistry name angular2
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'angular2',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'angular2',
+23 silly mapToRegistry   name: 'angular2',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/angular2
+25 silly fetchNamedPackageData es6-promise
+26 silly mapToRegistry name es6-promise
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'es6-promise',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'es6-promise',
+29 silly mapToRegistry   name: 'es6-promise',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/es6-promise
+31 silly fetchNamedPackageData es6-shim
+32 silly mapToRegistry name es6-shim
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'es6-shim',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'es6-shim',
+35 silly mapToRegistry   name: 'es6-shim',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/es6-shim
+37 silly fetchNamedPackageData reflect-metadata
+38 silly mapToRegistry name reflect-metadata
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'reflect-metadata',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'reflect-metadata',
+41 silly mapToRegistry   name: 'reflect-metadata',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+43 silly fetchNamedPackageData rxjs
+44 silly mapToRegistry name rxjs
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'rxjs',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'rxjs',
+47 silly mapToRegistry   name: 'rxjs',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+49 silly fetchNamedPackageData zone.js
+50 silly mapToRegistry name zone.js
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'zone.js',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'zone.js',
+53 silly mapToRegistry   name: 'zone.js',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+55 verbose request uri https://registry.npmjs.org/angular2
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 2:58:52 PM
+58 verbose request id 365e1887c15a188c
+59 http request GET https://registry.npmjs.org/angular2
+60 verbose request uri https://registry.npmjs.org/reflect-metadata
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 2:58:52 PM
+63 verbose etag "73B6IGAZQPI4H7RJ1DSZNY56I"
+64 http request GET https://registry.npmjs.org/reflect-metadata
+65 verbose request uri https://registry.npmjs.org/es6-promise
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 2:58:52 PM
+68 verbose etag "ACJCPV24O7989HKGJS8C0GN5Y"
+69 http request GET https://registry.npmjs.org/es6-promise
+70 verbose request uri https://registry.npmjs.org/rxjs
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 2:58:52 PM
+73 verbose etag "AC9EN817WT2KF3PHFGB9I2JK3"
+74 http request GET https://registry.npmjs.org/rxjs
+75 verbose request uri https://registry.npmjs.org/zone.js
+76 verbose request no auth needed
+77 info attempt registry request try #1 at 2:58:52 PM
+78 verbose etag "9P47MG80D55SXNUOLJMTRBL5O"
+79 http request GET https://registry.npmjs.org/zone.js
+80 verbose request uri https://registry.npmjs.org/es6-shim
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 2:58:52 PM
+83 verbose etag "60ZRHV1P79AVMH36BNSBCXAFS"
+84 http request GET https://registry.npmjs.org/es6-shim
+85 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+86 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+87 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+88 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+89 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+90 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+91 info attempt registry request try #2 at 2:59:02 PM
+92 http request GET https://registry.npmjs.org/angular2
+93 info attempt registry request try #2 at 2:59:02 PM
+94 verbose etag "ACJCPV24O7989HKGJS8C0GN5Y"
+95 http request GET https://registry.npmjs.org/es6-promise
+96 info attempt registry request try #2 at 2:59:02 PM
+97 verbose etag "73B6IGAZQPI4H7RJ1DSZNY56I"
+98 http request GET https://registry.npmjs.org/reflect-metadata
+99 info attempt registry request try #2 at 2:59:02 PM
+100 verbose etag "60ZRHV1P79AVMH36BNSBCXAFS"
+101 http request GET https://registry.npmjs.org/es6-shim
+102 info attempt registry request try #2 at 2:59:02 PM
+103 verbose etag "AC9EN817WT2KF3PHFGB9I2JK3"
+104 http request GET https://registry.npmjs.org/rxjs
+105 info attempt registry request try #2 at 2:59:02 PM
+106 verbose etag "9P47MG80D55SXNUOLJMTRBL5O"
+107 http request GET https://registry.npmjs.org/zone.js
+108 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+109 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+110 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+111 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+112 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+113 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+114 info attempt registry request try #3 at 3:00:02 PM
+115 verbose etag "ACJCPV24O7989HKGJS8C0GN5Y"
+116 http request GET https://registry.npmjs.org/es6-promise
+117 info attempt registry request try #3 at 3:00:02 PM
+118 http request GET https://registry.npmjs.org/angular2
+119 info attempt registry request try #3 at 3:00:02 PM
+120 verbose etag "73B6IGAZQPI4H7RJ1DSZNY56I"
+121 http request GET https://registry.npmjs.org/reflect-metadata
+122 info attempt registry request try #3 at 3:00:02 PM
+123 verbose etag "AC9EN817WT2KF3PHFGB9I2JK3"
+124 http request GET https://registry.npmjs.org/rxjs
+125 info attempt registry request try #3 at 3:00:02 PM
+126 verbose etag "60ZRHV1P79AVMH36BNSBCXAFS"
+127 http request GET https://registry.npmjs.org/es6-shim
+128 info attempt registry request try #3 at 3:00:02 PM
+129 verbose etag "9P47MG80D55SXNUOLJMTRBL5O"
+130 http request GET https://registry.npmjs.org/zone.js
+131 silly get cb [ 304, undefined ]
+132 verbose etag https://registry.npmjs.org/rxjs from cache
+133 verbose get saving rxjs to C:\Users\hanj\AppData\Roaming\npm-cache\registry.npmjs.org\rxjs\.cache.json
+134 verbose correctMkdir C:\Users\hanj\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+135 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=407
+135 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+135 silly fetchPackageMetaData     at ClientRequest.g (events.js:286:16)
+135 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+135 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+135 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:393:11)
+135 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+135 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+135 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:177:18)
+135 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:135:10)
+135 silly fetchPackageMetaData     at TCP.onread (net.js:542:20)
+135 silly fetchPackageMetaData  error for angular2@2.0.0-beta.13 { Error: tunneling socket could not be established, statusCode=407
+135 silly fetchPackageMetaData     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+135 silly fetchPackageMetaData     at ClientRequest.g (events.js:286:16)
+135 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+135 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+135 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:393:11)
+135 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+135 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+135 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:177:18)
+135 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:135:10)
+135 silly fetchPackageMetaData     at TCP.onread (net.js:542:20) code: 'ECONNRESET' }
+136 silly get cb [ 304, undefined ]
+137 verbose etag https://registry.npmjs.org/es6-shim from cache
+138 verbose get saving es6-shim to C:\Users\hanj\AppData\Roaming\npm-cache\registry.npmjs.org\es6-shim\.cache.json
+139 verbose correctMkdir C:\Users\hanj\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+140 silly get cb [ 304, undefined ]
+141 verbose etag https://registry.npmjs.org/reflect-metadata from cache
+142 verbose get saving reflect-metadata to C:\Users\hanj\AppData\Roaming\npm-cache\registry.npmjs.org\reflect-metadata\.cache.json
+143 verbose correctMkdir C:\Users\hanj\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+144 silly get cb [ 304, undefined ]
+145 verbose etag https://registry.npmjs.org/zone.js from cache
+146 verbose get saving zone.js to C:\Users\hanj\AppData\Roaming\npm-cache\registry.npmjs.org\zone.js\.cache.json
+147 verbose correctMkdir C:\Users\hanj\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+148 silly get cb [ 304, undefined ]
+149 verbose etag https://registry.npmjs.org/es6-promise from cache
+150 verbose get saving es6-promise to C:\Users\hanj\AppData\Roaming\npm-cache\registry.npmjs.org\es6-promise\.cache.json
+151 verbose correctMkdir C:\Users\hanj\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+152 silly resolveWithNewModule es6-shim@0.35.0 checking installable status
+153 silly cache add args [ 'es6-shim@0.35.0', null ]
+154 verbose cache add spec es6-shim@0.35.0
+155 silly cache add parsed spec Result {
+155 silly cache add   raw: 'es6-shim@0.35.0',
+155 silly cache add   scope: null,
+155 silly cache add   escapedName: 'es6-shim',
+155 silly cache add   name: 'es6-shim',
+155 silly cache add   rawSpec: '0.35.0',
+155 silly cache add   spec: '0.35.0',
+155 silly cache add   type: 'version' }
+156 silly addNamed es6-shim@0.35.0
+157 verbose addNamed "0.35.0" is a plain semver version for es6-shim
+158 silly mapToRegistry name es6-shim
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://registry.npmjs.org/
+161 silly mapToRegistry data Result {
+161 silly mapToRegistry   raw: 'es6-shim',
+161 silly mapToRegistry   scope: null,
+161 silly mapToRegistry   escapedName: 'es6-shim',
+161 silly mapToRegistry   name: 'es6-shim',
+161 silly mapToRegistry   rawSpec: '',
+161 silly mapToRegistry   spec: 'latest',
+161 silly mapToRegistry   type: 'tag' }
+162 silly mapToRegistry uri https://registry.npmjs.org/es6-shim
+163 verbose addNameVersion registry:https://registry.npmjs.org/es6-shim not in flight; fetching
+164 silly resolveWithNewModule reflect-metadata@0.1.2 checking installable status
+165 silly cache add args [ 'reflect-metadata@0.1.2', null ]
+166 verbose cache add spec reflect-metadata@0.1.2
+167 silly cache add parsed spec Result {
+167 silly cache add   raw: 'reflect-metadata@0.1.2',
+167 silly cache add   scope: null,
+167 silly cache add   escapedName: 'reflect-metadata',
+167 silly cache add   name: 'reflect-metadata',
+167 silly cache add   rawSpec: '0.1.2',
+167 silly cache add   spec: '0.1.2',
+167 silly cache add   type: 'version' }
+168 silly addNamed reflect-metadata@0.1.2
+169 verbose addNamed "0.1.2" is a plain semver version for reflect-metadata
+170 silly mapToRegistry name reflect-metadata
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry data Result {
+173 silly mapToRegistry   raw: 'reflect-metadata',
+173 silly mapToRegistry   scope: null,
+173 silly mapToRegistry   escapedName: 'reflect-metadata',
+173 silly mapToRegistry   name: 'reflect-metadata',
+173 silly mapToRegistry   rawSpec: '',
+173 silly mapToRegistry   spec: 'latest',
+173 silly mapToRegistry   type: 'tag' }
+174 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+175 verbose addNameVersion registry:https://registry.npmjs.org/reflect-metadata not in flight; fetching
+176 silly resolveWithNewModule zone.js@0.6.6 checking installable status
+177 silly cache add args [ 'zone.js@0.6.6', null ]
+178 verbose cache add spec zone.js@0.6.6
+179 silly cache add parsed spec Result {
+179 silly cache add   raw: 'zone.js@0.6.6',
+179 silly cache add   scope: null,
+179 silly cache add   escapedName: 'zone.js',
+179 silly cache add   name: 'zone.js',
+179 silly cache add   rawSpec: '0.6.6',
+179 silly cache add   spec: '0.6.6',
+179 silly cache add   type: 'version' }
+180 silly addNamed zone.js@0.6.6
+181 verbose addNamed "0.6.6" is a plain semver version for zone.js
+182 silly mapToRegistry name zone.js
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry data Result {
+185 silly mapToRegistry   raw: 'zone.js',
+185 silly mapToRegistry   scope: null,
+185 silly mapToRegistry   escapedName: 'zone.js',
+185 silly mapToRegistry   name: 'zone.js',
+185 silly mapToRegistry   rawSpec: '',
+185 silly mapToRegistry   spec: 'latest',
+185 silly mapToRegistry   type: 'tag' }
+186 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+187 verbose addNameVersion registry:https://registry.npmjs.org/zone.js not in flight; fetching
+188 silly resolveWithNewModule es6-promise@3.0.2 checking installable status
+189 silly cache add args [ 'es6-promise@3.0.2', null ]
+190 verbose cache add spec es6-promise@3.0.2
+191 silly cache add parsed spec Result {
+191 silly cache add   raw: 'es6-promise@3.0.2',
+191 silly cache add   scope: null,
+191 silly cache add   escapedName: 'es6-promise',
+191 silly cache add   name: 'es6-promise',
+191 silly cache add   rawSpec: '3.0.2',
+191 silly cache add   spec: '3.0.2',
+191 silly cache add   type: 'version' }
+192 silly addNamed es6-promise@3.0.2
+193 verbose addNamed "3.0.2" is a plain semver version for es6-promise
+194 silly mapToRegistry name es6-promise
+195 silly mapToRegistry using default registry
+196 silly mapToRegistry registry https://registry.npmjs.org/
+197 silly mapToRegistry data Result {
+197 silly mapToRegistry   raw: 'es6-promise',
+197 silly mapToRegistry   scope: null,
+197 silly mapToRegistry   escapedName: 'es6-promise',
+197 silly mapToRegistry   name: 'es6-promise',
+197 silly mapToRegistry   rawSpec: '',
+197 silly mapToRegistry   spec: 'latest',
+197 silly mapToRegistry   type: 'tag' }
+198 silly mapToRegistry uri https://registry.npmjs.org/es6-promise
+199 verbose addNameVersion registry:https://registry.npmjs.org/es6-promise not in flight; fetching
+200 silly resolveWithNewModule rxjs@5.0.0-beta.2 checking installable status
+201 silly cache add args [ 'rxjs@5.0.0-beta.2', null ]
+202 verbose cache add spec rxjs@5.0.0-beta.2
+203 silly cache add parsed spec Result {
+203 silly cache add   raw: 'rxjs@5.0.0-beta.2',
+203 silly cache add   scope: null,
+203 silly cache add   escapedName: 'rxjs',
+203 silly cache add   name: 'rxjs',
+203 silly cache add   rawSpec: '5.0.0-beta.2',
+203 silly cache add   spec: '5.0.0-beta.2',
+203 silly cache add   type: 'version' }
+204 silly addNamed rxjs@5.0.0-beta.2
+205 verbose addNamed "5.0.0-beta.2" is a plain semver version for rxjs
+206 silly mapToRegistry name rxjs
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry https://registry.npmjs.org/
+209 silly mapToRegistry data Result {
+209 silly mapToRegistry   raw: 'rxjs',
+209 silly mapToRegistry   scope: null,
+209 silly mapToRegistry   escapedName: 'rxjs',
+209 silly mapToRegistry   name: 'rxjs',
+209 silly mapToRegistry   rawSpec: '',
+209 silly mapToRegistry   spec: 'latest',
+209 silly mapToRegistry   type: 'tag' }
+210 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+211 verbose addNameVersion registry:https://registry.npmjs.org/rxjs not in flight; fetching
+212 verbose get https://registry.npmjs.org/reflect-metadata not expired, no request
+213 verbose get https://registry.npmjs.org/zone.js not expired, no request
+214 verbose get https://registry.npmjs.org/es6-shim not expired, no request
+215 silly mapToRegistry name zone.js
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npmjs.org/
+218 silly mapToRegistry data Result {
+218 silly mapToRegistry   raw: 'zone.js',
+218 silly mapToRegistry   scope: null,
+218 silly mapToRegistry   escapedName: 'zone.js',
+218 silly mapToRegistry   name: 'zone.js',
+218 silly mapToRegistry   rawSpec: '',
+218 silly mapToRegistry   spec: 'latest',
+218 silly mapToRegistry   type: 'tag' }
+219 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+220 verbose addRemoteTarball https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz not in flight; adding
+221 verbose addRemoteTarball [ 'https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz',
+221 verbose addRemoteTarball   '003ea8d9a8921862fac19811a8c4b1d90bb764a4' ]
+222 silly mapToRegistry name es6-shim
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry data Result {
+225 silly mapToRegistry   raw: 'es6-shim',
+225 silly mapToRegistry   scope: null,
+225 silly mapToRegistry   escapedName: 'es6-shim',
+225 silly mapToRegistry   name: 'es6-shim',
+225 silly mapToRegistry   rawSpec: '',
+225 silly mapToRegistry   spec: 'latest',
+225 silly mapToRegistry   type: 'tag' }
+226 silly mapToRegistry uri https://registry.npmjs.org/es6-shim
+227 verbose addRemoteTarball https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz not in flight; adding
+228 verbose addRemoteTarball [ 'https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz',
+228 verbose addRemoteTarball   '272d927950889eabe299927cdc9c0010b7bfc00a' ]
+229 verbose get https://registry.npmjs.org/es6-promise not expired, no request
+230 verbose get https://registry.npmjs.org/rxjs not expired, no request
+231 silly mapToRegistry name es6-promise
+232 silly mapToRegistry using default registry
+233 silly mapToRegistry registry https://registry.npmjs.org/
+234 silly mapToRegistry data Result {
+234 silly mapToRegistry   raw: 'es6-promise',
+234 silly mapToRegistry   scope: null,
+234 silly mapToRegistry   escapedName: 'es6-promise',
+234 silly mapToRegistry   name: 'es6-promise',
+234 silly mapToRegistry   rawSpec: '',
+234 silly mapToRegistry   spec: 'latest',
+234 silly mapToRegistry   type: 'tag' }
+235 silly mapToRegistry uri https://registry.npmjs.org/es6-promise
+236 verbose addRemoteTarball https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz not in flight; adding
+237 verbose addRemoteTarball [ 'https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz',
+237 verbose addRemoteTarball   '010d5858423a5f118979665f46486a95c6ee2bb6' ]
+238 silly mapToRegistry name rxjs
+239 silly mapToRegistry using default registry
+240 silly mapToRegistry registry https://registry.npmjs.org/
+241 silly mapToRegistry data Result {
+241 silly mapToRegistry   raw: 'rxjs',
+241 silly mapToRegistry   scope: null,
+241 silly mapToRegistry   escapedName: 'rxjs',
+241 silly mapToRegistry   name: 'rxjs',
+241 silly mapToRegistry   rawSpec: '',
+241 silly mapToRegistry   spec: 'latest',
+241 silly mapToRegistry   type: 'tag' }
+242 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+243 verbose addRemoteTarball https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz not in flight; adding
+244 verbose addRemoteTarball [ 'https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz',
+244 verbose addRemoteTarball   'f775df8b8598c0657031e5ff8ff8251e1c5c0185' ]
+245 silly cache afterAdd reflect-metadata@0.1.2
+246 verbose afterAdd C:\Users\hanj\AppData\Roaming\npm-cache\reflect-metadata\0.1.2\package\package.json not in flight; writing
+247 verbose correctMkdir C:\Users\hanj\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+248 info retry fetch attempt 1 at 3:00:02 PM
+249 info attempt registry request try #1 at 3:00:02 PM
+250 http fetch GET https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz
+251 info retry fetch attempt 1 at 3:00:02 PM
+252 info attempt registry request try #1 at 3:00:02 PM
+253 http fetch GET https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+254 info retry fetch attempt 1 at 3:00:02 PM
+255 info attempt registry request try #1 at 3:00:02 PM
+256 http fetch GET https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz
+257 info retry fetch attempt 1 at 3:00:02 PM
+258 info attempt registry request try #1 at 3:00:02 PM
+259 http fetch GET https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz
+260 verbose afterAdd C:\Users\hanj\AppData\Roaming\npm-cache\reflect-metadata\0.1.2\package\package.json written
+261 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+262 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+263 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+264 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+265 info attempt registry request try #2 at 3:00:12 PM
+266 http fetch GET https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz
+267 info attempt registry request try #2 at 3:00:12 PM
+268 http fetch GET https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+269 info attempt registry request try #2 at 3:00:12 PM
+270 http fetch GET https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz
+271 info attempt registry request try #2 at 3:00:12 PM
+272 http fetch GET https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz
+273 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+274 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+275 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+276 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+277 info attempt registry request try #3 at 3:01:12 PM
+278 http fetch GET https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz
+279 info attempt registry request try #3 at 3:01:12 PM
+280 http fetch GET https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz
+281 info attempt registry request try #3 at 3:01:12 PM
+282 http fetch GET https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz
+283 info attempt registry request try #3 at 3:01:12 PM
+284 http fetch GET https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+285 error fetch failed https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz
+286 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+287 error fetch failed https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz
+288 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+289 error fetch failed https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz
+290 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+291 error fetch failed https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+292 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+293 info retry fetch attempt 2 at 3:01:22 PM
+294 info attempt registry request try #1 at 3:01:22 PM
+295 http fetch GET https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz
+296 info retry fetch attempt 2 at 3:01:22 PM
+297 info attempt registry request try #1 at 3:01:22 PM
+298 http fetch GET https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz
+299 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+300 info retry fetch attempt 2 at 3:01:22 PM
+301 info attempt registry request try #1 at 3:01:22 PM
+302 http fetch GET https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz
+303 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+304 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+305 info retry fetch attempt 2 at 3:01:22 PM
+306 info attempt registry request try #1 at 3:01:22 PM
+307 http fetch GET https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+308 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+309 info attempt registry request try #2 at 3:01:32 PM
+310 http fetch GET https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz
+311 info attempt registry request try #2 at 3:01:32 PM
+312 http fetch GET https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz
+313 info attempt registry request try #2 at 3:01:32 PM
+314 http fetch GET https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz
+315 info attempt registry request try #2 at 3:01:32 PM
+316 http fetch GET https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+317 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+318 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+319 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+320 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+321 info attempt registry request try #3 at 3:02:32 PM
+322 http fetch GET https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz
+323 info attempt registry request try #3 at 3:02:32 PM
+324 http fetch GET https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz
+325 info attempt registry request try #3 at 3:02:32 PM
+326 http fetch GET https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz
+327 info attempt registry request try #3 at 3:02:32 PM
+328 http fetch GET https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+329 error fetch failed https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz
+330 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+331 error fetch failed https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz
+332 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+333 error fetch failed https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+334 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+335 error fetch failed https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz
+336 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+337 info retry fetch attempt 3 at 3:03:32 PM
+338 info attempt registry request try #1 at 3:03:32 PM
+339 http fetch GET https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz
+340 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+341 info retry fetch attempt 3 at 3:03:32 PM
+342 info attempt registry request try #1 at 3:03:32 PM
+343 http fetch GET https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz
+344 info retry fetch attempt 3 at 3:03:32 PM
+345 info attempt registry request try #1 at 3:03:32 PM
+346 http fetch GET https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+347 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+348 info retry fetch attempt 3 at 3:03:32 PM
+349 info attempt registry request try #1 at 3:03:32 PM
+350 http fetch GET https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz
+351 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+352 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+353 info attempt registry request try #2 at 3:03:42 PM
+354 http fetch GET https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz
+355 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+356 info attempt registry request try #2 at 3:03:42 PM
+357 http fetch GET https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz
+358 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+359 info attempt registry request try #2 at 3:03:42 PM
+360 http fetch GET https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+361 info attempt registry request try #2 at 3:03:42 PM
+362 http fetch GET https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz
+363 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+364 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+365 info attempt registry request try #3 at 3:04:42 PM
+366 http fetch GET https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz
+367 error fetch failed https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz
+368 info attempt registry request try #3 at 3:04:42 PM
+369 http fetch GET https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz
+370 info attempt registry request try #3 at 3:04:42 PM
+371 http fetch GET https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+372 info attempt registry request try #3 at 3:04:42 PM
+373 http fetch GET https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz
+374 error fetch failed https://registry.npmjs.org/es6-shim/-/es6-shim-0.35.0.tgz
+375 error fetch failed https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+376 error fetch failed https://registry.npmjs.org/zone.js/-/zone.js-0.6.6.tgz
+377 silly rollbackFailedOptional Starting
+378 silly rollbackFailedOptional Finishing
+379 silly runTopLevelLifecycles Starting
+380 silly runTopLevelLifecycles Finishing
+381 silly install printInstalled
+382 verbose stack Error: tunneling socket could not be established, statusCode=407
+382 verbose stack     at ClientRequest.onConnect (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+382 verbose stack     at ClientRequest.g (events.js:286:16)
+382 verbose stack     at emitThree (events.js:116:13)
+382 verbose stack     at ClientRequest.emit (events.js:194:7)
+382 verbose stack     at Socket.socketOnData (_http_client.js:393:11)
+382 verbose stack     at emitOne (events.js:96:13)
+382 verbose stack     at Socket.emit (events.js:188:7)
+382 verbose stack     at readableAddChunk (_stream_readable.js:177:18)
+382 verbose stack     at Socket.Readable.push (_stream_readable.js:135:10)
+382 verbose stack     at TCP.onread (net.js:542:20)
+383 verbose cwd C:\Projects\ng2\ng2\angular2-testing-master
+384 error Windows_NT 10.0.10586
+385 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+386 error node v6.3.0
+387 error npm  v3.10.3
+388 error code ECONNRESET
+389 error network tunneling socket could not be established, statusCode=407
+390 error network This is most likely not a problem with npm itself
+390 error network and is related to network connectivity.
+390 error network In most cases you are behind a proxy or have bad network settings.
+390 error network
+390 error network If you are behind a proxy, please make sure that the
+390 error network 'proxy' config is set properly.  See: 'npm help config'
+391 verbose exit [ 1, true ]
