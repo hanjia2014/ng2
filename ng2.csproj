@@ -84,8 +84,6 @@
     <Content Include="Form\styles.css" />
     <Content Include="Form\systemjs.config.js" />
     <Content Include="Hero\hero-app\new.html" />
-    <Content Include="Hero\mytest.js" />
-    <Content Include="Hero\unit-tests.html" />
     <Content Include="Hero\node_modules\jasmine-core\images\jasmine-horizontal.png" />
     <Content Include="Hero\node_modules\jasmine-core\images\jasmine-horizontal.svg" />
     <Content Include="Hero\node_modules\jasmine-core\images\jasmine_favicon.png" />
@@ -231,7 +229,6 @@
     <TypeScriptCompile Include="Hero\hero-app\learn-example.ts" />
     <TypeScriptCompile Include="Hero\hero-app\main.ts" />
     <TypeScriptCompile Include="Hero\hero-app\mock-heroes.ts" />
-    <TypeScriptCompile Include="Hero\test.ts" />
     <TypeScriptCompile Include="Hero\typings\jasmine.d.ts" />
     <TypeScriptCompile Include="Hero\typings\require.d.ts" />
     <TypeScriptCompile Include="HTTP\app\app.component.ts" />
